@@ -16,7 +16,7 @@ namespace GrokkingAlgorithms
                 int smallestIndex = i;
                 int temp = 0;
 
-                for (int j = i + 1; j < array.Length - 1; j++)
+                for (int j = i + 1; j < array.Length; j++)
                 {
                     if (array[smallestIndex] > array[j])
                     {

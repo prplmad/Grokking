@@ -13,7 +13,7 @@ using System;
 //Selection Sort
 //O(n^2)
 
-int[] nonSortedArray = new int[] {6,2,88,1,4,7,9,106,1000,101,0,20,67,31,1001 };
+int[] nonSortedArray = new int[] {6,2,88,1,4,7,9,106,1000,101,0,20,67,31,1001,3 };
 int[] newArray = SelectionSort.SelectionSorting(nonSortedArray);
 for (int i = 0; i < newArray.Length; i++)
 {
